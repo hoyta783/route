@@ -28,6 +28,33 @@
   color: #61dafb;
 }
 
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  background-color: #FAFAD2;
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  background-color: #FAFAD2;
+  color: #8B008B;
+  margin:auto;
+  padding: 0;
+}
+
+p{
+  background-color: #F5F5DC;
+  margin:auto;
+  padding: 30px;
+  height: 1200px;
+  color: #8B008B;
+  font-size: 35px;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
